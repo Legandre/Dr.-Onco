@@ -8,16 +8,35 @@
     tools:context=".splash"
     android:orientation="vertical"
     android:background="@color/black_shade">
+
     <TextView
         android:id="@+id/txtLogo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="H"
-        android:textStyle="bold"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/montserrat_medium"
+        android:text="ON"
         android:textColor="@color/white_smoke"
-        android:layout_centerInParent="true"
-        android:textSize="250sp"/>
+        android:textSize="245sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtLogo2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@id/txtLogo"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-108dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="CO"
+        android:textColor="@color/white_smoke"
+        android:textSize="245sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
