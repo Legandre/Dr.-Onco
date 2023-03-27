@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_shade"
+    tools:context=".first_view.Breast_cancer_interface">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:title="@string/Title"
+        android:background="@color/breast"
+        app:titleTextAppearance="@style/TextSizeToolbar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let’s try first"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/breast"
+        android:textSize="30dp"
+        android:shadowColor="@color/breast"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/bc_image"
+        android:background="@color/pink_200"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_breast_fill_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill Details"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/breast"
+        />
+
+</LinearLayout>

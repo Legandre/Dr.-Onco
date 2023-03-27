@@ -13,5 +13,9 @@
     <color name="cyan_a200">#18ffff</color>
     <color name="cyan_a700">#00b8d4</color>
     <color name="com_cyan">#00a6a7</color>
+    <color name="breast">#f8bbd0</color>
+    <color name="lung">#DDFFE7</color>
+
+
 
 </resources>

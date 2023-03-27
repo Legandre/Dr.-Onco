@@ -12,7 +12,13 @@
         android:theme="@style/Theme.Health"
         tools:targetApi="31">
         <activity
-            android:name=".form"
+            android:name=".final_view.Breast_final_output"
+            android:exported="false" />
+        <activity
+            android:name=".first_view.Breast_cancer_interface"
+            android:exported="false" />
+        <activity
+            android:name=".form.form_breast"
             android:exported="false" />
         <activity
             android:name=".splash"
@@ -25,7 +31,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

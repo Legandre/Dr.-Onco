@@ -8,10 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
-import android.widget.LinearLayout
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
-import com.google.android.material.appbar.AppBarLayout
+import com.example.health.first_view.Breast_cancer_interface
 import com.google.android.material.appbar.CollapsingToolbarLayout
 
 class MainActivity : AppCompatActivity() {
@@ -29,9 +28,11 @@ class MainActivity : AppCompatActivity() {
         CollapsingToolbar = findViewById(R.id.C)
 
         Breast_cancer.setOnClickListener{
-            val intent = Intent(this,form::class.java)
+            val intent = Intent(this, Breast_cancer_interface::class.java)
             startActivity(intent)
         }
+
+        CollapsingToolbar.setCollapsedTitleTextAppearance(R.style.CollapsedAppBar)
 
     }
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade"
+    android:orientation="vertical"
+    tools:context=".form.form_breast">
+
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:textColor="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/white_smoke"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:textColor="@color/white_smoke"
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white_smoke"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+            <EditText
+                android:id="@+id/et5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white_smoke"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+            <EditText
+                android:id="@+id/et6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white_smoke"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/et9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter the detail "
+                android:drawableStart="@drawable/hash"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white_smoke"
+                android:maxLines="1"
+                android:textColorHint="@color/white_smoke"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:padding="12dp"/>
+
+            <android.widget.Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_medium"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="@color/breast"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
