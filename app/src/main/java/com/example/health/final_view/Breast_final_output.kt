@@ -10,8 +10,6 @@ import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
-import com.chaquo.python.Python
-import com.chaquo.python.android.AndroidPlatform
 import com.example.health.R
 
 class Breast_final_output : AppCompatActivity() {
